@@ -1,1 +1,4 @@
 QtWebEngine Required_ 5.15.2 As support
+
+Unpack LoaderNew.7z
+Because the required images and video resources are included
