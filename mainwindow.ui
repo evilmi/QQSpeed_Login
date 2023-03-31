@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>796</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_user">
+    <property name="geometry">
+     <rect>
+      <x>484</x>
+      <y>275</y>
+      <width>53</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/label_pic/text_account.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pass">
+    <property name="geometry">
+     <rect>
+      <x>484</x>
+      <y>304</y>
+      <width>53</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/label_pic/text_password.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pass_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>219</y>
+      <width>325</width>
+      <height>338</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/label_pic/buttonsBackground.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pass_3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>42</y>
+      <width>325</width>
+      <height>177</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/label_pic/web/video_bg/ad_bg.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>869</x>
+      <y>199</y>
+      <width>53</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_2">
+    <property name="geometry">
+     <rect>
+      <x>482</x>
+      <y>247</y>
+      <width>13</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/radio_on.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_3">
+    <property name="geometry">
+     <rect>
+      <x>496</x>
+      <y>247</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/telecom.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_4">
+    <property name="geometry">
+     <rect>
+      <x>533</x>
+      <y>247</y>
+      <width>13</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/GreenLight.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_5">
+    <property name="geometry">
+     <rect>
+      <x>596</x>
+      <y>247</y>
+      <width>13</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/radio_off.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_6">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>247</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/netcom.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_7">
+    <property name="geometry">
+     <rect>
+      <x>647</x>
+      <y>247</y>
+      <width>13</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/GreenLight.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_8">
+    <property name="geometry">
+     <rect>
+      <x>703</x>
+      <y>247</y>
+      <width>13</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/radio_off.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_9">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>247</y>
+      <width>13</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/GreenLight.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_10">
+    <property name="geometry">
+     <rect>
+      <x>718</x>
+      <y>247</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res/res.qrc">:/server/telecom2.bmp</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_user_11">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>222</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(179, 179, 179);</string>
+    </property>
+    <property name="text">
+     <string>QQSpeed-PrivateServer v0.6.3 ClientVer18812</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pButtonLogin">
+    <property name="geometry">
+     <rect>
+      <x>478</x>
+      <y>388</y>
+      <width>293</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pButtonLogin
+{
+	border-image: url(:/button/login_normal.bmp);
+}
+QPushButton#pButtonLogin:hover
+{
+	border-image: url(:/button/login_hover.bmp);
+}
+QPushButton#pButtonLogin:pressed
+{
+	border-image: url(:/button/login_down.bmp);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pButtonMin">
+    <property name="geometry">
+     <rect>
+      <x>756</x>
+      <y>2</y>
+      <width>19</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pButtonMin
+{
+	border-image: url(:/button/min_normal.bmp);
+}
+QPushButton#pButtonMin:hover
+{
+	border-image: url(:/button/min_hover.bmp);
+}
+QPushButton#pButtonMin:pressed
+{
+	border-image: url(:/button/min_down.bmp);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pButtonClose">
+    <property name="geometry">
+     <rect>
+      <x>776</x>
+      <y>2</y>
+      <width>19</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pButtonClose
+{
+	border-image: url(:/button/close_normal.bmp);
+}
+QPushButton#pButtonClose:hover
+{
+	border-image: url(:/button/close_hover.bmp);
+}
+QPushButton#pButtonClose:pressed
+{
+	border-image: url(:/button/close_down.bmp);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>42</y>
+      <width>461</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>554</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-20</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_user">
+    <property name="geometry">
+     <rect>
+      <x>544</x>
+      <y>273</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_pass">
+    <property name="geometry">
+     <rect>
+      <x>544</x>
+      <y>302</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::PasswordEchoOnEdit</enum>
+    </property>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>label_pass_2</zorder>
+   <zorder>label_pass_3</zorder>
+   <zorder>label</zorder>
+   <zorder>label_user_2</zorder>
+   <zorder>label_user_3</zorder>
+   <zorder>label_user_4</zorder>
+   <zorder>label_user_5</zorder>
+   <zorder>label_user_6</zorder>
+   <zorder>label_user_7</zorder>
+   <zorder>label_user_8</zorder>
+   <zorder>label_user_9</zorder>
+   <zorder>label_user_10</zorder>
+   <zorder>label_user_11</zorder>
+   <zorder>pButtonLogin</zorder>
+   <zorder>pButtonMin</zorder>
+   <zorder>pButtonClose</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_pass</zorder>
+   <zorder>label_user</zorder>
+   <zorder>lineEdit_user</zorder>
+   <zorder>lineEdit_pass</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pButtonLogin</tabstop>
+  <tabstop>pButtonMin</tabstop>
+  <tabstop>pButtonClose</tabstop>
+ </tabstops>
+ <resources>
+  <include location="res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
